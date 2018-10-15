@@ -14,25 +14,31 @@
 <h1>Deposit Confirmation</h1>
 
 <from>
-First name: <input type="text" name="firstname"> <br>
-Last name: <input type="text" name="lastname"> <br>
-Phone Number: <input type="text" name="phone"> <br>
-Address: <input type="text" name="address"> <br>
-Bank: <input type="text" name="bank"> <br>
-Form Branch: <br>
-<input type="radio" name="spl"> SPL 
-<input type="radio" name="bmp"> BMP 
-<input type="radio" name="bze"> BZE 
-<input type="radio" name="ow"> OW <br>
-Confirmed by: <input type="text" name="confirmed"> <br> 
-Agent: 
-    <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Dropdown Example
-    <span class="caret"></span></button>
-      <ul class="dropdown-menu">
-      <li><a href="#">HTML</a></li>
-      <li><a href="#">CSS</a></li>
-      <li><a href="#">JavaScript</a></li>
-    </ul>
+Date: <input id="date" name="date"> <br><br>
+
+<script type="text/javascript">
+  document.getElementById('date').value = Date();
+</script>
+	
+First name: <input type="text" name="firstname"> <br><br>
+Last name: <input type="text" name="lastname"> <br><br>
+Phone Number: <input type="text" name="phone"> <br><br>
+Address: <input type="text" name="address"> <br><br>
+Bank: 
+	<input type="radio" name="BBL"> Belize Bank 
+		<input type="radio" name="BNS"> Scotia Bank 
+			<input type="radio" name="ABL"> Atlantic Bank 
+				<input type="radio" name="HBL"> Heritage Bank  
+ 
+ <br><br>
+Form Branch: <br><br>
+	<input type="radio" name="spl"> SPL 
+		<input type="radio" name="bmp"> BMP 
+			<input type="radio" name="bze"> BZE 
+				<input type="radio" name="ow"> OW <br><br>
+Confirmed by: <input type="text" name="confirmed"> <br><br> 
+Agent: <inpu type="test" name="angent">  <br><br>
+ <input type="submit"> 
 </form>
 
 </body>
